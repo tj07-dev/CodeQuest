@@ -1,0 +1,209 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+  display: flex;
+  margin: 0;
+  background: #000;
+  overflow: hidden;
+}
+
+.stars {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  animation: twinkle 2s linear infinite;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+    background-color: rgb(255, 0, 0);
+  }
+
+  25% {
+    opacity: 0.5;
+    transform: translateY(-20px);
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: translateY(-10px);
+    background-color: yellow;
+  }
+
+  75% {
+    opacity: 0.5;
+    transform: translateY(-5px);
+    background-color: white;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+}
+
+.container {
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  animation: borderAnimation 5s linear infinite;
+}
+
+@keyframes borderAnimation {
+  0% {
+    box-shadow: 2px 1px 10px rgb(255, 0, 0);
+    border: solid 2px rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+  }
+
+  25% {
+    box-shadow: 2px 1px 10px rgb(0, 255, 0);
+    border: solid 2px rgb(0, 255, 0);
+    color: rgb(0, 255, 0);
+  }
+
+  50% {
+    box-shadow: 2px 1px 10px rgb(0, 0, 255);
+    border: solid 2px rgb(0, 0, 255);
+    color: rgb(0, 0, 255);
+  }
+
+  75% {
+    box-shadow: 2px 1px 10px rgb(255, 255, 0);
+    border: solid 2px rgb(255, 255, 0);
+    color: rgb(255, 255, 0);
+  }
+
+  100% {
+    box-shadow: px 1px 10px rgba(255, 0, 255, 1);
+    border: solid 2px rgba(255, 0, 255, 1);
+    color: rgba(255, 0, 255, 1);
+  }
+}
+
+h1 {
+  color: #3498db;
+  margin: 0 auto;
+}
+
+p {
+  color: #ffffff;
+}
+
+input[type="number"] {
+  width: 94%;
+  margin: 10px 0;
+  padding: 10px;
+  /* animation: borderAnimation 5s linear infinite; */
+  border-radius: 5px;
+  color: #ffffff;
+  text-align: center;
+  background: none;
+  background-color: transparent;
+}
+
+button {
+  padding: 10px 20px;
+  background: linear-gradient(to bottom, #3498db, #2980b9);
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(to bottom, #2980b9, #256dab);
+}
+
+#message {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#attempts {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+#attempts span {
+  font-weight: bold;
+  color: #3498db;
+}
+
+#hint {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#playAgain {
+  margin-top: 20px;
+  display: none;
+}
+
+#difficulty {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: start;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  /* animation: borderAnimation 5s linear infinite;  */
+  border-radius: 5px;
+  border: solid 1px black;
+  color: #ffffff;
+  background: none;
+  background-color: transparent;
+}
+
+.playerScore {
+  margin-top: 20px;
+  font-size: 16px;
+  box-shadow: none !important;
+  border: none !important;
+  animation: borderAnimation 5s linear infinite;
+}
+.tab-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: 1px solid #3498db;
+  border-radius: 5px 5px 0 0;
+  margin: 0 5px;
+  font-size: small;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Style for the active tab */
+.tab.active {
+  background-color: #acdeff;
+  color: #000;
+  border-bottom: 1px solid #2980b9;
+}
