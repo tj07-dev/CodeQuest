@@ -11,13 +11,13 @@ Follow these steps to run the game on your local machine:
 2. Clone this repository or download the source code:
 
    ```shell
-   git clone [<repository-url>](https://github.com/tj07-dev/CodeQuest.git)
+   git clone https://github.com/tj07-dev/CodeQuest.git
    ```
 
 3. Navigate to the project directory:
 
    ```shell
-   cd [<project-directory>](CodeQuest)
+   cd CodeQuest
    ```
 
 4. Install the dependencies:
