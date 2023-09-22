@@ -64,7 +64,14 @@ Follow these steps to run the game on your local machine:
 
 Have fun playing the Number Guessing Game and test your guessing skills! Good luck!
 
+## Screen Shot
+
+1. ![Easy Mode Screenshot](Screenshots/CanYouGuessTheNumber.png)
+2. ![Easy Mode Screenshot](Screenshots/Hints.png)
+3. ![Easy Mode Screenshot](Screenshots/Lost.png)
+4. ![Easy Mode Screenshot](Screenshots/Won.png)
+
 ## Team
 
-1, [Vijaylakshmi Tomar](https://www.linkedin.com/in/vijaylakshmi-tomar-9042971a1/)
-2, [Tanmay Jain](https://www.linkedin.com/in/tj07/)
+1. [Vijaylakshmi Tomar](https://www.linkedin.com/in/vijaylakshmi-tomar-9042971a1/)
+2. [Tanmay Jain](https://www.linkedin.com/in/tj07/)
