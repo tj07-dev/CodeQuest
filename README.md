@@ -1,7 +1,7 @@
-# [Number Guessing Game](https://main--spontaneous-fox-c67dc8.netlify.app/)
+# [Number Guessing Game](https://spontaneous-fox-c67dc8.netlify.app/)
 
 This is a simple Number Guessing Game built with Vite and React. The goal of the game is to guess the randomly generated number within a certain number of attempts while trying to achieve the highest possible score. The game also provides difficulty levels: Easy, Medium, and Hard.
-[(Live here.)](https://main--spontaneous-fox-c67dc8.netlify.app/)
+[(Live here.)](https://spontaneous-fox-c67dc8.netlify.app/)
 
 ## Installation
 
@@ -33,7 +33,7 @@ Follow these steps to run the game on your local machine:
    npm run dev
    ```
 
-6. Open your web browser and access the game at [http://localhost:3000](http://localhost:3000).
+6. Open your web browser and access the game at [http://localhost:5173](http://localhost:5173).
 
 ## How to Play 
 
