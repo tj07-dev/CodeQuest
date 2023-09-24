@@ -27,6 +27,7 @@ const App = () => {
   }
 
   function checkGuess() {
+    if (guess.length < 1) return;
     const userGuess = parseInt(guess);
 
     if (attempts >= 6) {
